@@ -394,7 +394,7 @@ async function main() {
             if (type === "electron") {
                 document.getElementById("name").innerHTML = "Electron";
                 document.getElementById("type").innerHTML = "Fermion (Fundamental Particle)";
-                document.getElementById("img").src = "electron.png";
+                document.getElementById("img").src = "electronn.png";
                 document.getElementById("pars").innerHTML = /*html*/ `
             <p>Energy Level/Shell: <strong>${chosen.shell + 1}</strong></p>
             <p>Subshell: <strong>${chosen.subshell}</strong></p>
